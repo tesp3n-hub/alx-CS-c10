@@ -1,5 +1,6 @@
 // ZORK LAB - AUTO-PLAY WITH HUMAN-LIKE TYPING
 // Commands will be typed character-by-character like a real human
+//if you want test normally : type  commands but After "use admin badge" in developer type => gameState.biometricScannersDisabled = true;
 // Paste this entire script into the browser console (F12)
 
 const commands = [
@@ -50,7 +51,7 @@ const commands = [
     "go west",
     "take vault schematic",
     "offer coffee",
-    "use admin badge",
+    "use admin badge", 
     "go south",
     "use security override card",
     "enter 04131986",
